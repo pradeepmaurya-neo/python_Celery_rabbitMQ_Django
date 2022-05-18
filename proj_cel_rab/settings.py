@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app1',
-    'app2'
+    'app2',
 ]
 
 MIDDLEWARE = [
@@ -129,8 +129,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # EMAIL SERVICE SETTINGS
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'testngemai@gmail.com'
-EMAIL_HOST_PASSWORD = 'lfxkwiuhuhcuggwx'
-EMAIL_PORT = '587'
-EMAIL_TLS = True
-DEFAULT_FROM_EMAIL = 'TESTING@GMAIL.COM'
+EMAIL_HOST_USER = 'xyz@gmail.com'       # your email id
+EMAIL_HOST_PASSWORD = 'lfxkwiuhuhcuggx'    # app password
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'xyz@gmail.com'       # email id
